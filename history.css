@@ -1,0 +1,128 @@
+/* Hung Nguyen */
+body{
+font-family: Helvetica;
+}
+
+header{
+  height: 75px;
+  width:100%;
+}
+.navbar {
+  text-decoration: none;
+  background-color: #333;
+  overflow: hidden;
+  position: fixed;
+  height:auto;
+  z-index:1;
+  top: 0;
+  left: 0;
+  right:0;
+  width: 100%;
+  margin-bottom: 0px;
+}
+
+.container-fluid{
+    padding:0px;
+    overflow: hidden;
+  }
+
+.navbar li{
+  margin: .5em;
+  font-family: Helvetica;
+  display: inline;
+  list-style-type: none;
+  font-size: .8em;
+}
+
+a{
+  color:#99d1ff;
+}
+.active{
+  color:#fff;
+  text-decoration: underline;
+  pointer-events: none;
+}
+
+li a:hover:not(.current){
+  text-decoration:none;
+  color:white;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	position: relative;
+}
+
+.timeline {
+	padding: 40px 0px;
+	width: 80%;
+	margin-left: 10%;
+	margin-bottom: 40px;
+}
+
+.timeline:before {
+	content: "";
+	position: absolute;
+	top: 40px;
+	left: 65px;
+	width: 3px;
+	height: calc(100% - 80px);
+	background: #272727;
+}
+
+.timeline .column {
+	margin: 40px 40px 40px 120px;
+}
+
+.timeline .column .title h1 {
+	font-size: 115px;
+	color: rgba(0, 0, 0, 0.1);
+	letter-spacing: -5px;
+}
+
+.timeline .column .title h1:before {
+	content: "";
+	position: absolute;
+	left: -62px;
+	top: 86px;
+	width: 10px;
+	height: 10px;
+	background: #99d1ff;
+	border: 3px solid #99d1ff;
+}
+
+.timeline .column .title h2 {
+	margin-top: -60px;
+	font-size: 30px;
+}
+
+.timeline .column .description p {
+	font-size: 13px;
+	line-height: 20px;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+.timeline .column .description {
+	border-left: 1px solid #778899;
+}
+
+.main {
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 80px;
+}
+
+.main h1 {
+	font-size: 80px;
+	line-height: 60px;
+	font-size: 3em;
+}
+
+.main p {
+	font-size: .75em;
+	line-height: 20px;
+	font-family: serif;
+	text-align: right;
+}

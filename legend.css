@@ -1,0 +1,80 @@
+/* Hung Nguyen */
+body{
+font-family: Helvetica;
+line-height: normal;
+background-color: #fff
+}
+
+header{
+  height: 75px;
+  width:100%;
+}
+
+.navbar {
+  text-decoration: none;
+  background-color: #333;
+  overflow: hidden;
+  position: fixed;
+  height:auto;
+  z-index:1;
+  top: 0;
+  left: 0;
+  right:0;
+  width: 100%;
+  margin-bottom: 0px;
+}
+
+.container-fluid{
+    padding:0px;
+    overflow: hidden;
+  }
+
+.navbar li{
+  margin: .5em;
+  font-family: Helvetica;
+  display: inline;
+  list-style-type: none;
+  font-size: .8em;
+}
+
+a{
+  color:#99d1ff ;
+}
+.active{
+  color:#fff;
+  text-decoration: underline;
+  pointer-events: none;
+}
+
+li a:hover:not(.current){
+  text-decoration:none;
+  color:white;
+}
+
+.row {
+    background-color:white;
+    color:black;
+    height:auto;
+    font-weight: bold;
+    text-align: center;
+    font-size: .75em;
+    font-family: Arial;
+    padding-top: 40px;
+    overflow: hidden;
+    line-height: 2;
+}
+
+.row ul{
+  list-style-type: none;
+}
+
+.column-left{
+  float: left;
+   width: 50%;
+ }
+
+
+.column-right{
+  float: right;
+   width: 50%;
+ }
